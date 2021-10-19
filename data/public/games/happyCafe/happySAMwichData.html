@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="js/CompatibilityChart.js"></script>
+<script src="js/SandwichCalc.js"></script>
+<script src="js/GUIcontrol.js"></script>
+<script src="js/Main.js"></script>
+</html>
+<link rel="stylesheet" type="text/css" href="css/mainStyle.css">
+<head>
+<body>
+<a href="index.html"><h1 class="title" > Happy Sandwich Café Calculator </h1></a>
+<p class="description"> &nbsp &nbsp &nbsp &nbsp This application is meant for use in the game <a href="https://itunes.apple.com/us/app/happy-sandwich-cafe/id1003611920?mt=8" target="_blank"> Happy Sandwhich Cafe</a>. This application is used to determine the best possible sandwhich with the best possible outcome. Phase 1 of this project includes the following tool. Phase 2 of this project will have sorting algorithems that find the highest scored sandwich based on what ingredients the player has unlocked.</p>
+<div id="main" style = "display: inline;">
+	<div class="SandwichPanel" id="SandwichPanel" style = " ">
+		<div class = "SandwichInfograph">
+			<hr>
+			<div class = "bread">
+				<img src="images/bread.png">
+			</div>
+			<p class="outputTxt" id="output"><br><br><br><br><br><br><br><br><br><br></p>
+			<div class = "bread" style = "transform: rotate(180deg);">
+				<img src="images/bread.png">
+			</div>
+			<hr>
+		</div>
+		<div style="width: 100%;text-align: center">
+			<button onclick="showBreadList()" class = "sideButton" style="">Bread</button>
+			<button onclick="showLastChoice()" class = "sideButton" style="">Ingredients</button>
+			<button onclick="backChoice()" class = "sideButton" style="">Back</button>
+			<button onclick="resetChoices()" class = "sideButton" style="">Reset</button>
+		</div>
+		<p class ="infoTotalText" id="cost"></p>
+	</div>
+	<div class="choicePanel" style = "">
+		<div class="filter">
+			<button onclick="" class = "filterButton selectButtonSmall" style="">Meat</button>
+			<button onclick="" class = "filterButton selectButtonSmall" style="">Seafood</button>
+			<button onclick="" class = "filterButton selectButtonSmall" style="">Vegetable</button>
+			<button onclick="" class = "filterButton selectButtonSmall" style="">Other</button>
+			&nbsp &nbsp &nbsp &nbsp
+			<button onclick="" class = "filterButton selectButtonSmall" style="">Red</button>
+			<button onclick="" class = "filterButton selectButtonSmall" style="">Yellow</button>
+			<button onclick="" class = "filterButton selectButtonSmall" style="">White</button>
+			<button onclick="" class = "filterButton selectButtonSmall" style="">Green</button>
+			<button onclick="" class = "filterButton selectButtonSmall" style="">Other</button>
+		</div>
+		<h2> Good Choices </h2><p id="goodchoices"></p>
+		<h2> Neutral Choices  </h2><p id="normalchoices"></p>
+		<h2> Bad Choices  </h2><p id="badchoices"></p>
+	</div>
+</div>
+</body>

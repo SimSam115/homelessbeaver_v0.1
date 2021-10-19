@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<head>
+	<meta charset="UTF-8">
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="icon" 
+      type="image/png" 
+      href="images/icon.png">
+
+	<meta name="description" content="Homeless Beaver, portfolio of Samuel Haffner">
+	<meta name="description" content="Home less Beaver, portfolio of Samuel Haffner">
+	<meta name="keywords" content="portfolio,programmer,visionary,homeless,beaver">
+	<meta name="author" content="Samuel Haffner">
+	<meta name="viewport" content="width=2000" >
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script language="javascript" src="js/main.js?v=1.0"></script>
+	
+	<title>Homeless Beaver</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css?v=1.0">
+<script>
+	$(window).ready(function () {
+    $(".trigger_popup_fricc").click(function(){
+       $('.hover_bkgr_fricc').show();
+		
+    });
+    $('.popupCloseButton').click(function(){
+        $('.hover_bkgr_fricc').hide();
+    });
+});
+	</script>
+</head>
+<body>
+	<div id="header" class = "header container-fluid">
+		<div class = "row">
+			<h1 class="col-4"><a href="index.html" id="sitetitle">Samuel Haffner</a></h1>
+			<ul class="col-8">
+				<li id="pageTitleButton">
+					<a  href="index.html">Hello!</a>
+				</li>
+				<li id="pageAboutButton">
+					<a  href="about.html">About</a>
+				</li>
+				<li id="pageProjectsButton">
+					<a href="projects.html">Projects</a>
+				</li>
+				<li id="pageProjectsButton">
+					<a href="games.html">Games</a>
+				</li>
+				<li id="pageContactButton">
+					<a href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="body" class = "main">
+		
+		<div id="projects" class= "container-fluid " style="width:70%; background:rgb(240,240,240);border-radius: 50px;">
+			
+			<h1 class="titleForProjects">Games I've Worked on!</h1>
+			<br>
+			
+			<div class = "row justify-content-center">
+				
+				
+				<div class="trigger_popup_fricc col-2" onclick ="changePopupBox(EcoDrop)">
+					<img class="geoDrop" src="images/projects/geodrop/recyclingGame.png" alt="Image">
+					<h4 style="font-weight: bold;"><u>EcoDrop</u></h4>
+				</div>
+				<div class="col-md-2" >
+					<a href="games/tankGame/index.html" target="_blank"><img class="tank"  src="images/tankGame.png" alt="Image"></a>
+					<h4 style="font-weight: bold;"><u>Construct 3 Tank Game</u></h4></div>
+				<div class="col-2" >
+					<a href="games/helicopterGame/index.html" target="_blank"><img class="geoDrop"  src="images/helicopterGame.png" alt="Image"></a>
+					<h4 style="font-weight: bold;"><u>Helicopter Landing</u></h4></div>
+				<div class="col-2" >
+					<a href="games/aquarium/index.html" target="_blank"><img class="geoDrop"  src="games/aquarium/main.png" alt="Image"></a>
+					<h4 style="font-weight: bold;"><u>Aquarium Game</u></h4></div>
+			</div>
+			
+			<div class = "row justify-content-center">
+			    <div class="col-md-3" >
+					<a href="games/racing101/index.html" target="_blank"><img class="car"  style ="width:3vw;" src="images/Audi.png" alt="Image"></a>
+					<h4 style="font-weight: bold;"><u>Classic Racing Game</u></h4>
+                </div>
+				<div class="col-md-3" >
+					<a href="games/Galagamma/index.html" target="_blank"><img class="car"  style ="width:5vw;" src="games/Galagamma/bossBeatenUp.png" alt="Image"></a>
+					<h4 style="font-weight: bold;"><u>GalaGamma</u></h4>
+                </div>
+				<div class="col-md-3" >
+					<a href="games/basicPlatformer/index.html" target="_blank"><img class="geoDrop"  style ="width:5vw;" src="images/title/portalGame.png" alt="Image"></a>
+					<h4 style="font-weight: bold;"><u>Portal Style Game</u></h4>
+                </div>
+			</div>
+			
+			
+			<br><br><br>
+			<!--
+			<h1 class="titleForProjects">Games Made by my Students</h1>
+			<br>
+			<div class = "row">
+				<div class="col-3" >
+					<a href="games/potatoCatGame/index.html" target="_blank"><img class="geoDrop"  src="images/potatoCatGame.png" alt="Image"></a>
+					<h4 style="font-weight: bold;"><u>Potato Cat Game by Nicole</u></h4></div>
+			</div>
+			-->
+		</div>
+	</div>
+	<div id="footer">
+		<p>
+			Updated	Sep/2019
+		</p>
+	</div>
+	<div class="hover_bkgr_fricc">
+		<span class="helper"></span>
+		<div>
+			<div class="popupCloseButton">X</div>
+			<div id="popuptext" style = "width:auto; height:600px; overflow:auto; padding: 5px;">
+				<p> 
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

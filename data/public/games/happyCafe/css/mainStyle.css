@@ -1,0 +1,92 @@
+
+html {
+	background-color: #d4b58c;
+}
+
+.SandwichPanel{
+	width: 27%; 
+	height: 1200px; 
+	float:left;
+	margin: 10px;
+	
+}
+.SandwichInfograph{
+	background-color: #b29165; 
+	margin: 5px;
+}
+.sideButton{
+	border: solid; 
+	background-color: #b29165; 
+	height: 65px;
+	width: 110px;
+	margin: 1px;
+}
+.selectButtonBig{
+	border: solid; 
+	background-color: #b29165; 
+	padding-top:20px;
+	font-weight: bold;
+}
+.selectButtonMed{
+	border: solid; 
+	background-color: #b29165; 
+	padding-top:15px;
+	font-weight: bold;
+}
+.selectButtonSmall{
+	border: solid; 
+	background-color: #b29165; 
+	padding-top:10px;
+	font-weight: bold;
+}
+
+.title {
+	text-decoration: underline;
+	font-weight: bold;
+	background-color: #b29165; 
+	text-align: center;
+	font-size: 60px;
+	padding: 20px 15px;
+}
+.bread{
+	height: 75px;
+}
+.bread img {
+    width: 100%;
+    height: auto;
+}
+.outputTxt{
+	width: 100%;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+.infoTotalText{
+	font-size: 20px;
+	font-weight: bold;
+}
+.description{
+	background-color: #b29165; 
+	margin: 5px 45px 10px 45px;
+	padding: 20px 15px;
+	font-size: 20px;
+	
+}
+.filter{
+	background-color: #b29165; 
+	margin: 5px;
+	padding: 20px 15px;
+	width: 80%;
+	text-align: center;
+	display: flex;
+    flex-direction: row;
+	flex-grow: 1;
+}
+.filterButton{
+	height: 75px;
+}
+
+.choicePanel {
+	display: flex;
+    flex-direction: column;
+}

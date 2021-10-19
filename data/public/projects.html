@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="icon" 
+      type="image/png" 
+      href="images/icon.png">
+
+	<meta name="description" content="Homeless Beaver, portfolio of Samuel Haffner">
+	<meta name="description" content="Home less Beaver, portfolio of Samuel Haffner">
+	<meta name="keywords" content="portfolio,programmer,visionary,homeless,beaver">
+	<meta name="author" content="Samuel Haffner">
+	<meta name="viewport" content="width=2000" >
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script language="javascript" src="js/main.js?v=1.0"></script>
+	
+	<title>Homeless Beaver</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css?v=1.0">
+	<!--
+	<script src="//cdn.rawgit.com/mrdoob/three.js/master/build/three.min.js"></script>
+	
+	<script>
+		var camera, scene, renderer;
+		var geometry, material, mesh;
+
+		init();
+		animate();
+
+		function init() {
+
+			camera = new THREE.PerspectiveCamera( 40, window.innerWidth / window.innerHeight, 0.01, 10 );
+			camera.position.z = 1;
+
+			scene = new THREE.Scene();
+
+			geometry = new THREE.BoxGeometry( 0.2, 0.2, 0.2 );
+			material = new THREE.MeshNormalMaterial();
+
+			mesh = new THREE.Mesh( geometry, material );
+			scene.add( mesh );
+
+			renderer = new THREE.WebGLRenderer( { antialias: true } );
+			renderer.setSize(200, 200 );
+			document.body.appendChild( renderer.domElement );
+
+		}
+
+		function animate() {
+
+			requestAnimationFrame( animate );
+
+			mesh.rotation.x += 0.01;
+			mesh.rotation.y += 0.02;
+
+			renderer.render( scene, camera );
+
+		}
+	</script>
+	-->
+	<script>
+	$(window).ready(function () {
+    $(".trigger_popup_fricc").click(function(){
+       $('.hover_bkgr_fricc').show();
+		
+    });
+    $('.popupCloseButton').click(function(){
+        $('.hover_bkgr_fricc').hide();
+    });
+});
+	</script>
+</head>
+<body>
+	<div id="header" class = "header container-fluid">
+		<div class = "row">
+			<h1 class="col-4"><a href="index.html" id="sitetitle">Samuel Haffner</a></h1>
+			<ul class="col-8">
+				<li id="pageTitleButton">
+					<a  href="index.html">Hello!</a>
+				</li>
+				<li id="pageAboutButton">
+					<a  href="about.html">About</a>
+				</li>
+				<li id="pageProjectsButton">
+					<a href="projects.html">Projects</a>
+				</li>
+				<li id="pageProjectsButton">
+					<a href="games.html">Games</a>
+				</li>
+				<li id="pageContactButton">
+					<a href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="body" class = "main">
+		
+		<div id="projects" class= "container">
+			<h1 class="titleForProjects">Game Projects I've Worked on!</h1>
+			<br>
+			<div id="projects" class="row">
+				<a class = "trigger_popup_fricc col-3" onclick ="changePopupBox(RaceforGoldenCoupon)">
+					<img class="goldenCoupon" src="images/projects/goldenCoupon/goldenCoupon.png" alt="Image">
+					<h4 style="font-weight: bold;"><u>The Race for the Golden Coupon</u></h3>
+				</a>
+				
+
+				<div class="trigger_popup_fricc col-3" onclick ="changePopupBox(Resonate)">
+					<a name="resonate"></a>
+					<img class="resonate" style =" border-radius: 25%;" src="images/projects/resonate/resonate.gif" alt="Image">
+					<h4 style="font-weight: bold;"><u>Resonate</u></h4>
+				</div>
+
+				<div class="trigger_popup_fricc col-3" onclick ="changePopupBox(batch17)">
+					<img class="batchdiv" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="images/projects/batch/batch17.png" alt="Image">
+					<h4 style="font-weight: bold;"><u>Batch 17</u></h4>
+				</div>
+		
+				<div class="col-3" >
+					<a href="games/happyCafe\happySAMwichData.html"><img class="geoDrop" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="images/happysandwichcafe.jpg" alt="Image"></a>
+					<h4 style="font-weight: bold;"><u>Samwich Calculator</u></h4>
+				</div>
+			</div>
+			<br><hr>
+			<h1 class="titleForProjects">Websites I've Designed</h1><br>
+			<div id="3dProjects" class="row">
+				<div class = "col-3" >
+					<a href="arkhdesign01.web.app" target="_blank"><img class="geoDrop" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="images/amysWebsite.png" alt="Image"></a>
+					<h4 style="font-weight: bold;"><u>Amy Haffner's Portfolio website</u></h4>
+				</div>
+			</div>
+			<br><hr>
+			<h1 class="titleForProjects">3D Modeling Projects!</h1>
+			<br>
+			<div id="3dProjects" class="row">
+				<div class = "col-3" id="3dproject1">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<p>
+			Updated	Sep/2019
+		</p>
+	</div>
+	<div class="hover_bkgr_fricc">
+		<span class="helper"></span>
+		<div>
+			<div class="popupCloseButton">X</div>
+			<div id="popuptext" style = "width:auto; height:600px; overflow:auto; padding: 5px;">
+				<p> 
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

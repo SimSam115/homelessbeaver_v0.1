@@ -1,0 +1,97 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "jQuery.print",
+        "scope": null,
+        "escapedName": "jQuery.print",
+        "name": "jQuery.print",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\Users\\SamHaffy\\Google Drive\\~Programming\\~Prog. Projects\\homelessBeaver\\data"
+    ]
+  ],
+  "_from": "jQuery.print@latest",
+  "_id": "jQuery.print@1.5.1",
+  "_inCache": true,
+  "_location": "/jQuery.print",
+  "_nodeVersion": "7.4.0",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/jQuery.print-1.5.1.tgz_1490633259029_0.795291883405298"
+  },
+  "_npmUser": {
+    "name": "meneguite",
+    "email": "ronaldo@fireguard.com.br"
+  },
+  "_npmVersion": "4.0.5",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "jQuery.print",
+    "scope": null,
+    "escapedName": "jQuery.print",
+    "name": "jQuery.print",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/jQuery.print/-/jQuery.print-1.5.1.tgz",
+  "_shasum": "ed71fe00acf2b16fe163a62f1eef2fab79e4597a",
+  "_shrinkwrap": null,
+  "_spec": "jQuery.print",
+  "_where": "C:\\Users\\SamHaffy\\Google Drive\\~Programming\\~Prog. Projects\\homelessBeaver\\data",
+  "authors": [
+    "Sathvik P <sathvik@doersguild.com>"
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/DoersGuild/jQuery.print.git",
+    "basePath": "",
+    "files": [
+      "jQuery.print*"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/DoersGuild/jQuery.print/issues"
+  },
+  "dependencies": {
+    "jquery": ">=1.7.2"
+  },
+  "description": "Easy to use, Element Printing Plugin for jQuery, for printing specific parts of a page",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "ed71fe00acf2b16fe163a62f1eef2fab79e4597a",
+    "tarball": "https://registry.npmjs.org/jQuery.print/-/jQuery.print-1.5.1.tgz"
+  },
+  "filename": "jQuery.print.min.js",
+  "gitHead": "7441714af7e4f292b0c82188aec3294eada79024",
+  "homepage": "https://doersguild.github.io/jQuery.print/",
+  "keywords": [
+    "print",
+    "element printing",
+    "jquery print"
+  ],
+  "license": "CC-BY",
+  "main": "jQuery.print.js",
+  "maintainers": [
+    {
+      "name": "meneguite",
+      "email": "ronaldo@fireguard.com.br"
+    }
+  ],
+  "name": "jQuery.print",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DoersGuild/jQuery.print.git"
+  },
+  "scripts": {},
+  "version": "1.5.1"
+}

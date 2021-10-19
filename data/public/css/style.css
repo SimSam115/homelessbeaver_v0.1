@@ -1,0 +1,353 @@
+#preload-01 { background: url(images/picsOfMe/kidme.png) no-repeat -9999px -9999px; }
+#preload-02 { background: url(images/picsOfMe/me.png) no-repeat -9999px -9999px; }
+#preload-06 { background: url(images/picsOfMe/me2.png) no-repeat -9999px -9999px; }
+#preload-03 { background: url(images/projects/goldenTicketShow.png) no-repeat -9999px -9999px; }
+#preload-04 { background: url(images/projects/goldenCoupon.png) no-repeat -9999px -9999px; }
+#preload-05 { background: url(images/projects/resonate.gif) no-repeat -9999px -9999px; }
+
+@font-face {
+   font-family: lemonMilk;
+   src: url(LemonMilk.otf);
+}
+body {
+	background-image: linear-gradient(90deg, rgb(171, 118, 76),rgb(235, 193, 30));
+	color: #636466;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	letter-spacing: 0.05em;
+	margin: 0;
+	min-width: 960px;
+	padding: 0;
+}
+a {
+	outline: none;
+}
+
+p {
+	letter-spacing: 0.05em;
+	line-height: 26px;
+	margin: 0;
+	text-align: justify;
+}
+p a {
+	color: #636466;
+	text-align: center;
+}
+p a:hover,
+
+#body a.more:hover {
+	color: #3c3d3f;
+	text-decoration: underline;
+}
+#header {
+	height: 100px;
+	overflow: hidden;
+	padding: 40px 0 0 15%;
+	background-color: black;
+	margin: 0 auto;
+}
+#header h1 {
+	float: left;
+	font-family: lemonMilk, Helvetica, sans-serif;
+	font-size: 28px;
+	font-weight: normal;
+	letter-spacing: 0.07em;
+	margin: 0;
+	padding: 0 0 0px 30px;
+	text-transform: uppercase;
+}
+#header h1 a {
+	color: #ffffff;
+	text-decoration: none;
+}
+#header ul {
+	font-family: lemonMilk, Helvetica, sans-serif;
+	float: right;
+	list-style: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 14px 12px 0 0;
+}
+#header ul li {
+	border-left: 1px solid #3e3e3e;
+	float: left;
+	height: 25px;
+	padding: 0 15px;
+}
+#header ul li.current a,
+#header ul li a:hover {
+	color: #ffffff;
+}
+#header ul li:first-child {
+	border: none;
+}
+#header ul li a {
+	color: #868686;
+	display: block;
+	letter-spacing: 0.075em;
+	line-height: 20px;
+	text-decoration: none;
+}
+
+#body {
+	padding: 40px 0 40px;
+	margin-bottom: 100px;
+}
+#body div#home, 
+#body div#contact {
+	overflow: hidden;
+}
+#body div#home h1{
+	text-shadow: 5px 5px gray;
+	color: #000000;
+	font-family: lemonMilk, Helvetica, sans-serif;
+	font-size: 72px;
+	font-weight: normal;
+	letter-spacing: 0.025em;
+	margin: 10px 0 20px 30px;
+	text-align: center;
+	text-transform: uppercase;
+}
+#body h1.titleForProjects{
+	color:black;
+	border-bottom: 1px solid #000000;
+}
+#body div#home h1 span {
+	text-transform: lowercase;
+}
+#body div#home div.content{
+	float: center;
+	width: 980px;
+}
+#body div#home div.content div {
+	padding: 20px 20px;
+}
+#body div#title p{
+	text-align: center;
+    margin: auto;
+	width: 60%;
+	font-size: 20px;
+}
+#body div#projects div.project p,
+#body div#home div.content div p{
+	text-align: center;
+    margin: auto;
+	width: 60%;
+}
+
+#body div#title h2{
+	color: #58595b;
+    text-decoration: underline;
+	font-family: lemonMilk, Helvetica, sans-serif;
+	font-size: 38px;
+	font-weight: normal;
+	letter-spacing: 0.05em;
+	margin: 0;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#body div#projects div.project h2,
+#body div#home div.content div h2{
+	text-shadow: 2px 2px;
+	color: #58595b;
+    text-decoration: underline;
+	font-family: lemonMilk, Helvetica, sans-serif;
+	font-size: 38px;
+	font-weight: normal;
+	letter-spacing: 0.05em;
+	margin: 0;
+	text-transform: uppercase;
+	text-align: center;
+}
+#body div#projects h1,
+#body div#home div.content div h3{
+	padding: 10px 0 0 0;
+	color: #58595b;
+    text-decoration: underline;
+	font-family: lemonMilk, Helvetica, sans-serif;
+	font-size: 22px;
+	font-weight: normal;
+	letter-spacing: 0.05em;
+	margin: 0;
+	text-transform: uppercase;
+	text-align: center;
+}
+#body a.more {
+	color: #636466;
+	display: block;
+	letter-spacing: 0.05em;
+	padding: 0 20px;
+	text-decoration: none;
+}
+#body div#about img {
+	width: 250px;
+    display: block;
+    margin: auto;
+}
+#body div#about div.section{
+	width:80%;
+	margin:auto;
+}
+#body div#about div p,
+#body div#about div.section p{
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	text-align:center;
+}
+#body div#about h2,
+#body div#about div.section h2,
+#body div#about div.section h3{
+	color: #58595b;
+	font-family: lemonMilk, Helvetica, sans-serif;
+	font-weight: normal;
+	letter-spacing: 0.05em;
+	margin: auto;
+	text-align:center;
+	text-transform: uppercase;
+	padding: 40px 10px 10px 10px;
+}
+#body div#about h2,
+#body div#about div.section h2{
+    text-decoration: underline;
+	font-size: 50px;
+}
+#body div#about div.section h3{
+	font-size:24px;
+}
+#body div#about div.section img {
+	float: right; 
+	margin: 20px 0 0 0;
+	width: 250px;
+}
+#body div#projects div.project {
+	border-bottom: 1px solid #000000;
+}
+#body img.geoDrop{
+	border: 0;
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+#body img.car{
+	border: 0;
+    width: 90%;
+    display: block;
+    margin: auto;
+    animation: rotation 5s infinite linear;
+}
+#body img.tank{
+	border: 0;
+    width: 90%;
+    display: block;
+    margin: auto;
+    animation: rotation 5s infinite linear;
+}
+#body img.batchdiv,
+#body img.resonate,
+#body img.goldenCoupon{
+	border: 0;
+    width: 200px;
+    display: block;
+    margin: auto;
+} 
+
+#body img.projectButton{
+	width:20%;
+    display: inline;
+}
+
+#footer {
+	margin: 0 auto;
+	width: 560px;
+	float:right;
+}
+#footer p {
+	border-top: 1px solid #000000;
+	font-family: lemonMilk, Helvetica, sans-serif;
+	font-size: 12px;
+	letter-spacing: 0.075em;
+	line-height: 20px;
+	text-align: right;
+	width: 300px;
+}
+#cssmenu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+/* Popup box BEGIN */
+.hover_bkgr_fricc{
+    background:rgba(0,0,0,.4);
+    cursor:pointer;
+    display:none;
+    height:100%;
+    position:fixed;
+    text-align:center;
+    top:0;
+    width:100%;
+    z-index:10000;
+}
+.hover_bkgr_fricc .helper{
+    display:inline-block;
+    height:100%;
+    vertical-align:middle;
+}
+
+.hover_bkgr_fricc > div {
+    background-color: #fff;
+    box-shadow: 10px 10px 60px #555;
+    display: inline-block;
+    height: auto;
+    max-width: 800px;
+    min-height: 100px;
+    vertical-align: middle;
+    width: 60%;
+    position: relative;
+    border-radius: 8px;
+    padding: 10px 5%;
+}
+@media only screen and (max-width: 800px) {
+    
+	.hover_bkgr_fricc > div {
+		max-width: 551px;
+    }
+}
+.popupCloseButton {
+    background-color: #fff;
+    border: 3px solid #999;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial;
+    font-weight: bold;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 25px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.popupCloseButton:hover {
+    background-color: #ccc;
+}
+.trigger_popup_fricc {
+    cursor: pointer;
+    font-size: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+/* Popup box BEGIN */
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
